@@ -1,4 +1,4 @@
-<center><h2 agian=certer; style=color:red><b>Git教程</b></h2></center>
+<center><h2 style=color:red><b>Git教程</b></h2></center>
 
 https://blog.csdn.net/gudujianw/article/details/80965067
 
