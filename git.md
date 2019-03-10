@@ -65,4 +65,3 @@ git commit –m “XX”  提交文件 –m 后面的是注释。
    git push origin master  Git会把master分支推送到远程库对应的远程分支上
    
    
-   00000
