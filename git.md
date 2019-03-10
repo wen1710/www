@@ -1,6 +1,21 @@
 <center><h2 style=color:red><b>Git教程</b></h2></center>
 
-##### **Git基本常用命令如下**
+https://blog.csdn.net/gudujianw/article/details/80965067
+
+https://baijiahao.baidu.com/s?id=1594979541273085800&wfr=spider&for=pc
+
+Git安装
+
+1. 设置用户名和邮箱，作为一个标识。
+
+   ```git
+   $ git config --global user.name "Jivan"
+   $ git congig --global user.email"wen170@gmail.com"
+   ```
+
+2. 输入 ssh-keygen ，按三次enter
+
+##### Git基本常用命令如下**
 
 mkdir：        XX (创建一个空目录 XX指目录名)
 
