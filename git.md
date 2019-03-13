@@ -5,7 +5,7 @@ https://blog.csdn.net/gudujianw/article/details/80965067
 https://baijiahao.baidu.com/s?id=1594979541273085800&wfr=spider&for=pc
 
 https://blog.csdn.net/weixin_43211277/article/details/82715355  如何解决git上传文件出错[rejected] master -> master (fetch first) error: failed to push some refs to '
-
+https://blog.csdn.net/qq_38716242/article/details/79380825
 Git安装
 
 1. 设置用户名和邮箱，作为一个标识。
