@@ -1,5 +1,4 @@
 <center><h2 style=color:red><b>Git教程</b></h2></center>
-
 https://blog.csdn.net/gudujianw/article/details/80965067
 
 https://baijiahao.baidu.com/s?id=1594979541273085800&wfr=spider&for=pc
@@ -12,7 +11,7 @@ Git安装
 
    ```git
    $ git config --global user.name "Jivan"
-   $ git congig --global user.email"wen170@gmail.com"
+   $ git config --global user.email"wen170@gmail.com"
    ```
 
 2. 输入 ssh-keygen ，按三次enter
@@ -80,5 +79,61 @@ git commit –m “XX”  提交文件 –m 后面的是注释。
    git remote –v 查看远程库的详细信息
 
    git push origin master  Git会把master分支推送到远程库对应的远程分支上
-   
+
+
+
+
+
+Step 1:
+
+安装git
+
+step 2：
+
+```git
+git clone https://github.com/wen1710/www.git  从远程库中克隆
+```
+
+通过命令 git clone [仓库链接]将中央代码仓库下载到本地。下载的仓库会保存到输入命令时所在的位置。
+
+step 3:
+
+推送修改到中央代码仓库共分 3 步。首先，暂存（stage）文件，告诉 Git 希望将哪 个修改过的文件推送到中央代码仓库。
+
+```
+git add [文件名]
+```
+
+将文件加入缓存
+
+```
+git commit -m "备注更新内容"
+```
+
+提交文件，即 命令 Git 记录本地代码仓库所做的修改。 可使用语法 git commit -m [信息]提交 文件。 该命令将创建一次提交（commit）：Git 保存的一个项目代码版本。 旗标-m 表示要添加一段信息， 帮助记忆对项目做了什么修改以及原因（这条信息类似注释）。
+
+step 4：
+
+```
+git push origin master
+```
+
+提交文件后，即可进行最后一步。可通过命令 git push origin master，将本地的修改推送到中央代码库：
+
+step 5:
+
+```
+git pull origin master
+```
+
+我们可以使用命令 git pull origin master 更新本地代码仓库：Git 会把中央代码仓库的修改应用到本地。
+
+
+
+
+
+
+
+
+
    
