@@ -47,11 +47,11 @@ git commit –m “XX”  提交文件 –m 后面的是注释。
 
    git rm XX          删除XX文件
 
-   git remote add origin <https://github.com/ev-power/XiaoYong> 关联一个远程库
+   git remote add origin https://github.com/wen1710/www.git   关联一个远程库
 
    git push –u(第一次要用-u 以后不需要) origin master 把当前master分支推送到远程库
 
-   git clone <https://github.com/ev-power/XiaoYong>  从远程库中克隆
+   git clone https://github.com/wen1710/www.git  从远程库中克隆
 
    git checkout –b dev  创建dev分支 并切换到dev分支上
 
